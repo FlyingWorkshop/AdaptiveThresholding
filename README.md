@@ -3,7 +3,7 @@ Re-implementing elementary image processing techniques without advanced librarie
 
 
 # Adaptive Thresholding
-![Alt text](/outputs/gates_of_hell_local_median_r1.png "title")
+![Alt text](/outputs/gates_of_hell_local_median_r1.png "Optional title")
 
 [!alt text](https://github.com/FlyingWorkshop/GridCleaner/blob/main/outputs/gates_of_hell_local_median_r1.png)
 [!alt text](https://github.com/FlyingWorkshop/GridCleaner/blob/main/outputs/gates_of_hell_local_median_r10.png)
