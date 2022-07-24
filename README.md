@@ -14,6 +14,8 @@ Thresholding is the process of turning a grayscale image into a purely black and
 Black and White Gates of Hell (left = naive threshold, right = Otsu's method)
 ![Alt text](/outputs/gates_of_hell_otsu_vs_naive.png)
 Black and White Hagia Sophia (left = naive threshold, right = Otsu's method)
+![Alt text](/outputs/hagia_sophia_bw_comparison.png)
+
 
 
 ## Adaptive Thresholding
@@ -22,3 +24,7 @@ Local Median Thresholding with radius=1, 10, 20, 40 in descending order.
 ![Alt text](/outputs/gates_of_hell_local_median_r10.png)
 ![Alt text](/outputs/gates_of_hell_local_median_r20.png)
 ![Alt text](/outputs/gates_of_hell_local_median_r40.png)
+Local Median Thresholding with radius=20, 40 in descending order.
+![Alt text](/outputs/hagia_sophia_local_median_r20.png)
+![Alt text](/outputs/hagia_sophia_local_median_r40.png)
+
