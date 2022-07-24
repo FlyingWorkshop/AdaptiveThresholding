@@ -8,6 +8,8 @@ Hagia Sophia Grayscale (left = naive, right = sophisticated)
 ![Alt text](/outputs/hagia_sophia_grayscale_comparison.png)
 
 # Thresholding
+Thresholding is the process of turning a grayscale image into a purely black and white image. Grayscale images aren't black and white because they have gray pixels. A black and white image has only fully-black pixels and fully-white pixels (i.e., pixel values at 0 or 255). The naive approach is to simply pick a threshold between 0 and 255, but this approach is often too crude for very dark/bright images. Another approach is to use Otsu's method which you learn more about from references.txt, but even this method is insufficient if we only search for a global threshold. We can refine this approach by applying Otsu's method (or searching for other measures of central tendency) locally across a scrolling window over the image.
+
 ## Global Thresholding
 Compares global thresholding from Otsu's method versus the naive threshold 255//2.  
 ![Alt text](/outputs/gates_of_hell_otsu_vs_naive.png)
