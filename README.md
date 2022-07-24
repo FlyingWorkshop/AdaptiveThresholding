@@ -4,8 +4,8 @@ Re-implementing elementary image processing techniques without advanced librarie
 
 # Thresholding
 ## Global Thresholding
-Compares global thresholding from Otsu's method versus the naive threshold 255//2.
-![Alt text](gates_of_hell_otsu_vs_naive.png)
+Compares global thresholding from Otsu's method versus the naive threshold 255//2.  
+![Alt text](/outputs/gates_of_hell_otsu_vs_naive.png)
 
 ## Adaptive Thresholding
 Local Median Thresholding (radius=1, 10, 20, 40)
