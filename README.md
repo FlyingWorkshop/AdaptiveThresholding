@@ -8,7 +8,7 @@ Compares global thresholding from Otsu's method versus the naive threshold 255//
 ![Alt text](/outputs/gates_of_hell_otsu_vs_naive.png)
 
 ## Adaptive Thresholding
-Local Median Thresholding (radius=1, 10, 20, 40)
+Local Median Thresholding with radius=1, 10, 20, 40 in descending order.
 ![Alt text](/outputs/gates_of_hell_local_median_r1.png)
 ![Alt text](/outputs/gates_of_hell_local_median_r10.png)
 ![Alt text](/outputs/gates_of_hell_local_median_r20.png)
