@@ -29,3 +29,8 @@ Local Median Thresholding with radius=20, 40 in descending order.
 ![Alt text](/outputs/hagia_sophia_local_median_r20.png)
 ![Alt text](/outputs/hagia_sophia_local_median_r40.png)
 
+
+# Miscellanious
+I was taking an algorithms course when I wrote this (it's weird writing about the present in the past tense) and we were covering DFS/BFS algorithms, so I figured I'd make a BFS fillcolor algorithm ☺️.
+![Alt text](/outputs/multicolor_gates.jpg)
+
