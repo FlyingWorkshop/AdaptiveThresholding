@@ -17,6 +17,9 @@ Black and White Gates of Hell (left = naive threshold, right = Otsu's method)
 Black and White Hagia Sophia (left = naive threshold, right = Otsu's method)
 ![Alt text](/outputs/hagia_sophia_bw_comparison.png)
 
+For those curious, here is the histogram of interclass variance from applying Otsu's method globally to the Gate's of Hell.
+![Alt text](/outputs/gates_of_hell_grayscale_intensity_otsu_histogram_and_intraclass_variance.png)
+
 
 
 ## Adaptive Thresholding
