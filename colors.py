@@ -52,7 +52,8 @@ def bfs(array, seen, source):
 
 
 def main():
-    img = Image.open("data/gates_of_hell_local_median_r20_gridless.jpg")
+    # img = Image.open("data/gates_of_hell_clean.png")
+    img = Image.open("outputs/eroded_gates_radius2.png")
 
     # preprocessing
     a = np.array(img)

@@ -9,3 +9,9 @@ watch:
 - luminance isn't linear for humans (0 vs 1 lightbulb makes more of a difference than 100 vs 101 lightbulbs)
 - cameras count photons, so they perceive luminance linearly
 - - this creates a problem called BANDING (e.g. dark bands of in shadows)
+
+TODO:
+* foreground detection for gates of hell and then do local median on foreground
+* dilate local median thing
+* perform otsu's method on close up of gates of hell
+* read about PST (fancy edge detection: https://en.wikipedia.org/wiki/Phase_stretch_transform)
