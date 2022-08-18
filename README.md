@@ -43,3 +43,7 @@ Local Median Thresholding with radius=20, 40 in descending order.
 I was taking an algorithms course when I wrote this (it's weird writing about the present in the past tense) and we were covering DFS/BFS algorithms, so I figured I'd make a BFS fillcolor algorithm ☺️.
 ![Alt text](/outputs/multicolor_gates.jpg)
 
+The next image is the final product! My code ended up being too slow without parallelization to run efficiently on larger images, so I used library code
+to create the output. First, we convert to grayscale then we use Gaussian adaptive thresholding to convert to black and white. Then dilate and erode the picture to remove noise and thicken lines. Then we run flood fill and adjust these colors to correspond with the intensity of the original image to add a sense of depth. Retrace the black lines in the photo, and we're done!
+![Alt text](/outputs/library_colored_gates.png)
+
