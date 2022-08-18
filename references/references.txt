@@ -1,0 +1,29 @@
+read:
+* modern method for adaptive thresholding [https://en.wikipedia.org/wiki/Otsu%27s_method]
+* global and adaptive thresholding [https://en.wikipedia.org/wiki/Thresholding_(image_processing)]
+* gamma compression for grayscale [https://en.wikipedia.org/wiki/Gamma_correction]
+* PNG gamma compression [https://hsivonen.fi/png-gamma/]
+
+watch:
+* https://www.youtube.com/watch?v=wFx0d9c8WMs (What is Gamma Correction)
+- luminance isn't linear for humans (0 vs 1 lightbulb makes more of a difference than 100 vs 101 lightbulbs)
+- cameras count photons, so they perceive luminance linearly
+- - this creates a problem called BANDING (e.g. dark bands of in shadows)
+
+TODO:
+* foreground detection for gates of hell and then do local median on foreground
+- IDEA: find the 2 highest vertical gradients and horizontal gradients per row and column to form the outline of the gate and then copmlete the image
+* dilate local median thing
+* perform otsu's method on close up of gates of hell
+* read about PST (fancy edge detection: https://en.wikipedia.org/wiki/Phase_stretch_transform)
+
+
+# Edge Detection:
+* https://www.sciencedirect.com/science/article/pii/S0030402616302364 (sub-pixel level edge detection)
+* https://en.wikipedia.org/wiki/Image_gradient
+* https://en.wikipedia.org/wiki/Prewitt_operator (more efficient but less precise kernel compared to Sobel)
+* https://www.youtube.com/watch?v=fhDBy-wV3ic (video walks through comparison of Roberts/Sobel/Prewitt kernels)
+TODO: https://www.youtube.com/watch?v=sRFM5IEqR2w (canny edge detection)
+
+# BM3D:
+* https://www.youtube.com/watch?v=aJrG8IH81SY (application for microscopy)
