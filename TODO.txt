@@ -1,2 +1,6 @@
 implement Canny edge detection
 implement Gaussian blur
+add animation for fill color
+implement chromaticity edge detection
+canny edge detection (then median threshold within the boundaries)
+develop a better foreground detector
