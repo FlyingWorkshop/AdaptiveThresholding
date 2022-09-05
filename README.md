@@ -1,4 +1,4 @@
-# GridCleaner
+# Overview
 Re-implementing elementary image processing techniques without advanced libraries. These implementations aren't supposed to be faster than library code. I'm implementing these techniques from scractch for my own educational edification.
 
 # Original Inputs
